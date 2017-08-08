@@ -49,7 +49,7 @@ $(function() {
 	var currentMarker;
 	
 	var assetsUrl = function() {
-		return window.location.hostname == 'localhost' ? '' : 'http://gta5-map.github.io/';
+		return window.location.hostname == 'localhost' ? '' : 'https://rullor.github.io/rullor/';
 	};
 
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
